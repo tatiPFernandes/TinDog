@@ -1,0 +1,178 @@
+body {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+p {
+
+  color: #8f8f8f;
+  font-size: clamp(1.4rem, 1rem + 1vw, 1rem);
+
+}
+
+/*container section*/
+.container-fluid {
+  padding: 7% 10%;
+}
+
+.coloured-section {
+  background-color: #ff4c69;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Heading */
+.big-heading {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Nav-bar section*/
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+
+.Download-button {
+  margin: 0 5% 5% 0;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.button {
+  padding: 20px;
+}
+
+/* Title Section*/
+.title-img {
+  padding-top: 3%;
+  transform: rotate(25deg);
+  width: 60%;
+
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* features*/
+#features {
+  position: relative;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/*Testimonials*/
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section*/
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-collum {
+  padding: 3% 2%;
+}
+
+.Download-button {
+  font-family: Ubuntu;
+  margin: 20px 10px;
+}
+
+/*footer*/
+#footer {
+  background: #fff;
+  padding: 40px;
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media screen and (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    right: 25%;
+  }
+}
